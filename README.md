@@ -43,22 +43,22 @@ Persisted data to CSV files.
 Included options for each menu to delete and update Products, Orders and Couriers.
 ```
 
-![alt text](Untitled.png)
+![alt text\](Untitled.png)](Images/CLI.png)
 
 ```py
 Moved persisting data from csv files into a MySQL Database.
 ```
 
-![alt text](<Database Schema.png>)
+![alt text](<D![atabase Schema.png](<Images/Database Schema.png>)
 ```py
 Add error checking functionality for faulty inputs.
 ```
 
-![alt text](<Error checking functions.png>)
+![alt text](<Images/Error checking functions.png>)
 ```py
 Added unit tests for the error checking functionality.
 ```
-![alt text](<Unit test.png>)
+![!\[alt text\]](<Images/Unit test.png>)
 
 
 

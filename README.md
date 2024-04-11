@@ -13,7 +13,7 @@ The clint had 7 requirements within the template:
 
 2. Upon receiving a new order from a customer, the system must seamlessly integrate it into the database.
 
-3. Flexibility is essential, enabling the user to update the status of orders efficiently, whether they are being prepared, out for delivery, or already delivered.
+3. Flexibility is essential, enabling the user to update the status of orders efficiently, whether they are being prepared, out for delivery, already delivered or cancelled.
 
 4. Crucially, all data must persist even after exiting the application, ensuring no loss of critical information.
 
@@ -24,23 +24,11 @@ The clint had 7 requirements within the template:
 7. Regular software updates are essential to address any bugs, enhance features, and maintain optimal performance, demonstrating a commitment to continuous improvement and customer satisfaction.
 ```
 
-## Design Decisions
+## Design Decision
 
-### Cafe-App-V1
+### Cafe-App
 ```py
-Bulit Simple and easy to follow Menu System.
-```
-
-```py
-Included options for each menu to View and Add Products, Orders and Couriers.
-```
-```py
-Persisted data to CSV files.
-```
-
-### Cafe-App-V2
-```py
-Included options for each menu to delete and update Products, Orders and Couriers.
+Included options for each menu to view, add delete and update Products, Orders and Couriers.
 ```
 
 ![alt text\](Untitled.png)](Images/CLI.png)
@@ -49,9 +37,9 @@ Included options for each menu to delete and update Products, Orders and Courier
 Moved persisting data from csv files into a MySQL Database.
 ```
 
-![alt text](<D![atabase Schema.png](<Images/Database Schema.png>)
+![atabase Schema.png](<Images/Database Schema.png>)
 ```py
-Add error checking functionality for faulty inputs.
+Added error checking functionality for faulty inputs.
 ```
 
 ![alt text](<Images/Error checking functions.png>)
